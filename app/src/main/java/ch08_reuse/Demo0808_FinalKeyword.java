@@ -1,7 +1,7 @@
 package ch08_reuse;
 
 /**
- * 演示 final 关键字 (8.8 节)
+ * final 关键字 (8.8 节)
  *
  * final 关键字有三种用法：
  * 1. final 数据 (8.8.1) — 值不可变的基本类型 或 引用不可变的对象
@@ -14,7 +14,7 @@ package ch08_reuse;
  * 不再需要依赖 final 关键字来提示优化，因此"为了优化而用 final"已不再必要。
  * 建议：仅在明确不允许重写时才使用 final。
  */
-public class DemoFinal {
+public class Demo0808_FinalKeyword {
 
     public static void main(String[] args) {
 

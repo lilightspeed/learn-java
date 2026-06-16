@@ -1,7 +1,7 @@
 package ch08_reuse;
 
 /**
- * 演示组合与继承相结合 (8.4 节)
+ * 组合与继承相结合 (8.4 节)
  *
  * 在实际开发中，组合和继承往往同时使用。
  * 关键原则：组合用于"has-a"关系，继承用于"is-a"关系。
@@ -10,7 +10,7 @@ package ch08_reuse;
  * - 8.4.1 确保正确的清理
  * - 8.4.2 名称隐藏（子类覆盖基类方法）
  */
-public class DemoCombinationAndInheritance {
+public class Demo0804_CompositionAndInheritance {
 
     public static void main(String[] args) {
         // 创建一个 Home 对象

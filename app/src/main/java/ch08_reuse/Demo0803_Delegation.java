@@ -1,7 +1,7 @@
 package ch08_reuse;
 
 /**
- * 演示委托 (8.3 节)
+ * 委托 (8.3 节)
  *
  * 委托（Delegation）：介于组合和继承之间的复用方式。
  * 我们在新类中持有被委托类的引用（像组合），
@@ -10,7 +10,7 @@ package ch08_reuse;
  * Java 没有对委托的原生语言支持，需要手动编写转发方法。
  * 委托的优势：可以精确控制暴露哪些方法，比继承更灵活。
  */
-public class DemoDelegation {
+public class Demo0803_Delegation {
 
     public static void main(String[] args) {
         // 使用委托的打印机

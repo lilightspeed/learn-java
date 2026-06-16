@@ -1,7 +1,7 @@
 package ch08_reuse;
 
 /**
- * 演示初始化顺序 (8.9 节)
+ * 初始化顺序 (8.9 节)
  *
  * 类加载和初始化的完整过程：
  *
@@ -25,7 +25,7 @@ package ch08_reuse;
  * 一句话口诀：类加载 static -> 父类初始化 -> 子类初始化
  *   —— 先静态，后非静；先父类，后子类；先变量，后构造。
  */
-public class DemoInitializationOrder {
+public class Demo0809_InitOrder {
 
     public static void main(String[] args) {
         System.out.println("===== 第1次创建子类对象 =====");

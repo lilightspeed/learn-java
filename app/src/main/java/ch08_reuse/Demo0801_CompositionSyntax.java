@@ -1,20 +1,20 @@
 package ch08_reuse;
 
 /**
- * 演示组合语法 (8.1 节)
+ * 组合语法 (8.1 节)
  *
  * 组合（Composition）：在新类中创建已有类的对象作为成员变量。
  * 这是一种"has-a"（有一个）关系。
  * 组合是 Java 代码复用的最基本方式。
  */
-public class DemoComposition {
+public class Demo0801_CompositionSyntax {
 
     // 组合：将已有的类作为成员变量
     private Engine engine;
     private Wheels wheels;
     private Stereo stereo;
 
-    public DemoComposition() {
+    public Demo0801_CompositionSyntax() {
         // 构造器中初始化组合的对象
         engine = new Engine("V6");
         wheels = new Wheels(4);
@@ -38,7 +38,7 @@ public class DemoComposition {
     }
 
     public static void main(String[] args) {
-        DemoComposition car = new DemoComposition();
+        Demo0801_CompositionSyntax car = new Demo0801_CompositionSyntax();
         car.startCar();
         System.out.println("————行驶中————");
         car.stopCar();

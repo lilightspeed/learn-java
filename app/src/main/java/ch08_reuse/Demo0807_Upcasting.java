@@ -1,7 +1,7 @@
 package ch08_reuse;
 
 /**
- * 演示向上转型 (8.7 节)
+ * 向上转型 (8.7 节)
  *
  * 向上转型（Upcasting）：将子类引用转为基类引用。
  * 之所以叫"向上"，是因为在继承图中，基类在上，子类在下。
@@ -12,7 +12,7 @@ package ch08_reuse;
  * - 向上转型后调用方法，表现的是子类的行为（多态的基础）
  * - "再论组合与继承"：向上转型是区分组合与继承的关键特征
  */
-public class DemoUpcasting {
+public class Demo0807_Upcasting {
 
     public static void main(String[] args) {
         System.out.println("=== 直接使用子类 ===");

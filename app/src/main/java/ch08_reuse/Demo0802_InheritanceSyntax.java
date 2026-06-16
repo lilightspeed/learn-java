@@ -1,7 +1,7 @@
 package ch08_reuse;
 
 /**
- * 演示继承语法 (8.2 节)
+ * 继承语法 (8.2 节)
  *
  * 继承（Inheritance）：使用 extends 关键字，子类自动获得基类的所有
  * 非 private 成员和方法。这是一种"is-a"（是一个）关系。
@@ -12,7 +12,7 @@ package ch08_reuse;
  * - 子类可以添加新方法，也可以重写基类方法
  * - 所有继承会形成一棵继承树
  */
-public class DemoInheritance {
+public class Demo0802_InheritanceSyntax {
 
     public static void main(String[] args) {
         Dog dog = new Dog("金毛", "黄色");

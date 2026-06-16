@@ -1,7 +1,7 @@
 package ch08_reuse;
 
 /**
- * 演示 protected 关键字 (8.6 节)
+ * protected 关键字 (8.6 节)
  *
  * protected 是 Java 四种访问权限修饰符之一。
  * 它提供了「继承访问权限」：
@@ -13,7 +13,7 @@ package ch08_reuse;
  * 我们在不同包的子类中访问 protected 成员的效果，
  * 本示例将通过同包子类的角度来演示。
  */
-public class DemoProtected {
+public class Demo0806_ProtectedKeyword {
 
     public static void main(String[] args) {
         System.out.println("=== 同包访问 ===");

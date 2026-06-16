@@ -61,7 +61,7 @@ ch{两位数字}_{英文关键词}
 
 | 分类 | 命名模式 | 说明 |
 |------|---------|------|
-| **演示代码** | `Demo{关键词}.java` | 书中核心示例，带 `main` 方法，可直接运行 |
+| **演示代码** | `Demo{2位章号}{2位节号}_{关键词}.java` | 例如第8章第1节 → `Demo0801_CompositionSyntax.java` |
 | **练习代码** | `Exercise{编号}.java` | 章节练习参考实现 |
 | **辅助类** | 按功能英文命名 | 被 Demo 引用的工具类 |
 
@@ -75,21 +75,21 @@ ch{两位数字}_{英文关键词}
 package ch06_init_cleanup;
 
 /**
- * 演示构造器 (6.1 节)
+ * 构造器 (6.1 节)
  *
  * 构造器保证每个对象在使用前都被正确初始化。
  * - 构造器名称与类名相同
  * - 没有返回值
  * - 可以有多个重载版本
  */
-public class DemoConstructor {
+public class Demo0601_Constructor {
 
-    public DemoConstructor() {
+    public Demo0601_Constructor() {
         System.out.println("构造器被调用");
     }
 
     public static void main(String[] args) {
-        new DemoConstructor();
+        new Demo0601_Constructor();
     }
 }
 ```
@@ -97,8 +97,8 @@ public class DemoConstructor {
 ### 源文件路径
 
 ```
-app/src/main/java/ch{XX}_{topic}/Demo{Name}.java
-app/src/test/java/ch{XX}_{topic}/Demo{Name}Test.java    // 需要测试时
+app/src/main/java/ch{XX}_{topic}/Demo{XX}{YY}_{Name}.java
+app/src/test/java/ch{XX}_{topic}/Demo{XX}{YY}_{Name}Test.java    // 需要测试时
 ```
 
 ---
