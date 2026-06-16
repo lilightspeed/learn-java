@@ -37,15 +37,11 @@ learn-java/
 │       ├── main/
 │       │   └── java/
 │       │       ├── ch08_reuse/          # 第8章 复用
-│       │       │   ├── Demo0801_CompositionSyntax.java       # 8.1 组合语法
-│       │       │   ├── Demo0802_InheritanceSyntax.java       # 8.2 继承语法
-│       │       │   ├── Demo0803_Delegation.java              # 8.3 委托
-│       │       │   ├── Demo0804_CompositionAndInheritance.java # 8.4 组合与继承相结合
-│       │       │   ├── Demo0806_ProtectedKeyword.java        # 8.6 protected 关键字
-│       │       │   ├── Demo0807_Upcasting.java               # 8.7 向上转型
-│       │       │   ├── Demo0808_FinalKeyword.java            # 8.8 final 关键字
-│       │       │   └── Demo0809_InitOrder.java               # 8.9 初始化顺序
-│       │       └── learn/java/          # 默认主类（Gradle 初始化生成）
+│       │       │   └── ...
+│       │       ├── ch09_polymorphism/   # 第9章 多态
+│       │       │   └── ...
+│       │       └── ch10_interfaces/     # 第10章 接口
+│       │           └── ...
 │       └── test/
 │           └── java/
 │               └── learn/java/
@@ -64,8 +60,8 @@ learn-java/
 | 第7章 | 实现隐藏 | — | ✅ |
 | **第8章** | **复用** | `ch08_reuse` | ✅ |
 | **第9章** | **多态** | `ch09_polymorphism` | ✅ |
-| 第10章 | 接口 | — | ⬜ |
-| 第11章 | 内部类 | — | ⬜ |
+| **第10章** | **接口** | `ch10_interfaces` | ✅ |
+| **第11章** | **内部类** | — | 🟡 **当前** |
 | 第12章 | 集合 | — | ⬜ |
 | 第13章 | 函数式编程 | — | ⬜ |
 | 第14章 | 流 | — | ⬜ |

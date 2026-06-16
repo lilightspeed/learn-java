@@ -23,8 +23,8 @@
 | ✅ 已完成 | 第7章 | 实现隐藏 | `ch07_hiding_implementation` | package、public/private/protected、模块系统 |
 | ✅ 已完成 | 第8章 | 复用 | `ch08_reuse` | 组合、继承、委托、final、代理、初始化顺序 |
 | ✅ 已完成 | 第9章 | 多态 | `ch09_polymorphism` | 向上转型、绑定、协变返回、构造器内多态、向下转型 |
-| 🟡 **当前** | 第10章 | 接口 | `ch10_interfaces` | 抽象类、接口定义、default方法、密封类、工厂模式 |
-| ⬜ 待开始 | 第11章 | 内部类 | `ch11_inner_classes` | 匿名内部类、嵌套类、闭包、回调、控制框架 |
+| ✅ 已完成 | 第10章 | 接口 | `ch10_interfaces` | 抽象类、接口定义、default方法、密封类、工厂模式 |
+| 🟡 **当前** | 第11章 | 内部类 | `ch11_inner_classes` | 匿名内部类、嵌套类、闭包、回调、控制框架 |
 | ⬜ 待开始 | 第12章 | 集合 | `ch12_collections` | List、Set、Map、Queue、Iterator、record类型 |
 | ⬜ 待开始 | 第13章 | 函数式编程 | `ch13_functional` | lambda、方法引用、函数式接口、闭包、柯里化 |
 | ⬜ 待开始 | 第14章 | 流 | `ch14_streams` | 流创建、中间操作、Optional、收集器、并行流 |
