@@ -27,7 +27,7 @@ public class Demo0804_CompositionAndInheritance {
         Child child = new Child();
         child.f();     // 调用 Child 的 f()
         child.f(42);   // 继承自 Parent 的 f(int)
-        // child.f("hello"); // 基类的 f(String) 被彻底隐藏了！编译错误
+        child.f("hello"); // ✅ 不会报错！基类的 f(String) 仍然可用，因为 signature 不同
     }
 }
 
@@ -131,13 +131,10 @@ class Child extends Parent {
     // 新增了一个重载 f(double)
     void f(double d) { System.out.println("Child.f(double): " + d); }
 
-    // ⚠️ 注意：基类的 f(int) 和 f(String) 仍然可用
-    // 但如果想调用 f(String)，这里会被隐藏
-    // 因为 Java 的方法查找规则是：先在子类中找，找不到再找基类
-    // 但实际上 f(int) 和 f(String) 因为签名不同，并不会被完全隐藏
-    // 只是 f() 被重写了。f(int) 和 f(String) 继承自基类，仍然可用。
-    // 真正被"隐藏"的是：如果你在子类中重新定义了同名方法
-    // 而签名不同，那基类的同名方法就被"覆盖"了
+    // ✅ Java 不隐藏基类的其他重载
+    // Child 定义了 f() 和 f(double)，但 f(int) 和 f(String) 继承自 Parent，仍然可用。
+    // 这与 C++ 不同——C++ 中派生类定义同名方法会隐藏基类所有重载。
+    // Java 只在签名完全匹配时才会重写，不同签名的基类方法照常继承。
 }
 /* 输出:
 Room 构造器: 梦想家园

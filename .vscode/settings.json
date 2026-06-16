@@ -1,3 +1,19 @@
 {
-    "java.compile.nullAnalysis.mode": "automatic"
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.debug.settings.stepping.skipClasses": [
+        "java.lang.*",
+        "java.io.*",
+        "java.util.*",
+        "java.nio.*",
+        "java.net.*",
+        "java.security.*",
+        "java.text.*",
+        "java.time.*",
+        "java.math.*",
+        "javax.*",
+        "sun.*",
+        "com.sun.*",
+        "jdk.internal.*",
+        "jdk.jfr.*"
+    ]
 }
